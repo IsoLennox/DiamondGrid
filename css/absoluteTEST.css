@@ -1,0 +1,198 @@
+/*main.css*/
+
+
+/**Eric Meyer's Reset CSS v2.0 */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+
+
+
+body {
+	/*background-image: "img/seamlesstexture14_1200.jpg";*/
+	background:grey url("../img/seamlesstexture13_1200.jpg");
+    line-height: 1.4em;
+    font-size:1em;
+    font-family:"Century Gothic","Helvetica Neue",Helvetica,Arial, sans-serif;
+    color:#aaa;
+    font-weight:normal; 
+    background: #433C19  url("../img/stardust54.png") ;
+}
+
+
+
+img { max-width: 100%;
+	height: auto;}
+a {text-decoration:none;color:#fff;}
+
+
+/*section header and title styleing*/
+
+
+.section_header {
+	text-align: center;
+	color: #000;
+    clear: both;
+    margin-top: 100px;
+    
+}
+
+.section_title {
+	text-align: center;
+	color: #000;
+    clear: both;
+    margin-top: 100px;
+    padding: 150px;
+    
+}
+
+
+#home .section_header {
+ margin-bottom: 200px;
+    margin-top: 200px;
+        
+}
+ 
+/*done*/
+
+/*general text styling*/
+h1 {
+
+	font: normal 100%/1.4 sans-serif;
+	font-size: 4em;
+	line-height: 40px;
+	letter-spacing: -1px;color: #444;}
+
+h2 {
+	font-family: times, Times New Roman, times-roman, georgia, serif;
+	font-size: 2em;
+	line-height: 40px;
+	letter-spacing: -1px;
+	color: #444;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+    font-weight: 100;
+}
+
+
+
+h1,h2,h3,h4,h5,h6 {
+    color:#000;
+    font-weight:900;
+    margin: 0 0 25px 0;
+        
+} 
+
+h4 {font-size:30px;color:#a65f77;font-weight:900;}
+
+
+p {
+	font-family: times, Times New Roman, times-roman, georgia, serif;
+	font-size: 1em; 
+	line-height: 20px;
+	text-transform: uppercase;
+	color: #000;
+	padding: 1em;
+    margin: 0 0 25px 0;}
+
+ 
+/*done*/
+
+/*hover effects*/
+section a {  /*'section' makes sure nav is not affected*/
+ color:#000000;
+ /*background-color:#ffffff;*/
+ width: 120px;
+ height: 30px;
+ text-decoration:none;
+
+} 
+section a:hover {
+ color:#000;
+ font: 10px;
+} 
+
+
+
+/* SECTIONS */
+/* SECTIONS */
+/* SECTIONS */
+/* SECTIONS */
+
+
+.main_content_div {
+	height: 500px;
+	width: 80%;
+	/*border: 1px solid black;*/    /*<<for testing*/
+	margin: 0 auto;
+    min-height: 800px;
+    
+}
+
+ 
+ /*************************************************/
+
+header img{  padding: 10px; position: absolute;}
+ 
+#home{padding-top: 230px;}
+#company {position: absolute; top: 100px;}
+
+#bigleft {position: absolute;  }
+#bigright {position: absolute; left: 74% }
+
+.ldiamonds,
+#bigleft {float: left;}
+
+.rdiamonds,
+#bigright {float: right;}
+
+.rdiamonds,
+.ldiamonds{ max-width: 40%; padding: 10px;  }
+
+ #topleft,
+#topright,
+ #botleft,
+#botright{width: 500px;} 
+
+.rdiamonds{position: absolute;  }
+.ldiamonds{position: absolute;  }
+
+ 
+
+ #topleft #middle{position: absolute;   }
+#topright #middle {position: absolute;  } 
+#topright #right {position: absolute;}
+
+
+#botleft,
+#botright{position: absolute; }
+
+ #botleft #middle{position: absolute;  }
+ #botleft #left{position: absolute;  }
+#botright #middle {position: absolute;  }
+#botright #right {position: absolute;  }
+#botright #left {position: absolute; top: -1005px; left: 650px;}
+
+
+
+
+
+
+
