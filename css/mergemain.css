@@ -150,6 +150,7 @@ section a:hover {
  /*************************************************/
 
 header img{  padding: 10px; position: absolute;}
+#home img {position: absolute; top: 60px; left: 0;}
  
 #home{padding-top: 230px;}
 #company {position: relative; top: 100px;}
